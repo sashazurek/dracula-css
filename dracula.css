@@ -2,6 +2,8 @@ html,
 body {
 	background-image: none !important;
 	background-color: rgba(40, 42, 54, 1) !important;
+    font-family: sans-serif;
+    margin-bottom: 200px;
 }
 
 body * {
@@ -9,6 +11,7 @@ body * {
 	background-color: rgba(40, 42, 54, 1) !important;
 }
 
+/* links */
 a,
 a * {
 	color: rgba(80, 250, 123, 1) !important;
@@ -48,7 +51,7 @@ strong,
 [id*="header"],
 [class*="header"],
 [class*="header"] td {
-	color: rgba(255, 184, 108, 1) !important;
+	color: rgba(189, 147, 249, 1) !important;
 }
 
 table {
@@ -104,5 +107,27 @@ a.active *,
 [href="#"] {
 	font-weight: bold !important;
 	color: rgba(139, 233, 253, 1) !important;
+}
+
+main {
+    margin: auto ;
+}
+
+header {
+    text-align: center ;
+    padding: 0.5em 0 ;
+}
+
+header h1 {
+    font-size: 50px ;
+}
+
+main p {
+    text-align: center ;
+}
+
+footer {
+    text-align: center ;
+    padding: 0.5em 0 ;
 }
 
