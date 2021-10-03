@@ -62,8 +62,24 @@ ul {
     margin: 0 ;
     padding: 0 ;
     overflow: hidden;
-    border: solid 2px rgba(241, 250, 140, 1) ;
+    /*border: solid 2px rgba(241, 250, 140, 1) ;*/
+    border: solid 2px rgba(228, 243, 74, 1) ;
     border-radius: 10px ;
+}
+.links {
+    display: table ;
+    margin: auto ;
+    text-align: center ;
+}
+.box {
+    float: left ;
+    text-align: center ;
+    padding: 6px ;
+    font-size: 18px ;
+}
+
+.navbar ul {
+    border: solid 2px rgba(228, 243, 74, 1) ;
 }
 
 .navbar {
@@ -101,7 +117,7 @@ img {
     height: auto ; 
     margin: auto ;
     display: block ;
-    border: solid 2px rgba(241, 250, 140, 1) ;
+    border: solid 2px rgba(228, 243, 74, 1) ;
     border-radius: 10px ;
 }
 
@@ -130,11 +146,11 @@ main p {
 
 footer {
     text-align: center ;
+    margin: 1em auto ;
+    margin-top: 50px ;
     box-sizing: border-box ;
     width: 66.66% ;
-    margin: 1em auto ;
-    margin-top: 75px ;
-    border: solid 2px rgba(241, 250, 140, 1) ;
+    border: solid 2px rgba(228, 243, 74, 1) ;
     border-radius: 10px ;
 }
 
