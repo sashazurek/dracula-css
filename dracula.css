@@ -42,13 +42,16 @@ h1,
 [class*="header"] td {
 	color: rgba(189, 147, 249, 1) !important;
 }
-h2,
+h2 {
+	color: rgba(139, 233, 253, 1) !important;
+}
+
 h3,
 h4,
 h5,
 h6,
 strong {
-	color: rgba(139, 233, 253, 1) !important;
+	color: rgba(255, 121, 198, 1) !important;
 }
 
 table {
@@ -65,6 +68,15 @@ ul {
     /*border: solid 2px rgba(241, 250, 140, 1) ;*/
     border: solid 2px rgba(228, 243, 74, 1) ;
     border-radius: 10px ;
+}
+
+ul.intext {
+    border: none ; 
+    list-style: disc inside !important ;
+    text-align: center ;
+    max-width: 80% ;
+    margin: 1em auto ;
+    font-size: 18px ;
 }
 .links {
     display: table ;
@@ -135,6 +147,11 @@ header h1 {
 
 header h2 {
     font-size: 40px ;
+}
+header h3 {
+    font-size: 30px ;
+    text-align: left ; 
+    text-indent: 5% ;
 }
 
 main p {
